@@ -5,6 +5,10 @@ The setup is a basic site that utilizes the implicit grant flow available for [W
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Demo
+
+View the live demo here: https://webexsamples.github.io/webex-basic-oauth-sample/
+
 ## Project Setup
 
 The project uses environment variables to configure the Webex API Integration.
