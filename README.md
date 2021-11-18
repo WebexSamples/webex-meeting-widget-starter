@@ -1,6 +1,6 @@
-# Webex Basic OAuth Sample
+# Webex React OAuth Sample
 
-The purpose of this project is to show how to authorize with Webex APIs.
+The purpose of this project is to show how to authorize with Webex APIs within a React application.
 The setup is a basic site that utilizes the implicit grant flow available for [Webex Integrations](https://developer.webex.com/docs/integrations).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
