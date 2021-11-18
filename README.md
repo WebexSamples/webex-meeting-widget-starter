@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Demo
 
-View the live demo here: https://webexsamples.github.io/webex-basic-oauth-sample/
+View the live demo here: https://webexsamples.github.io/webex-react-oauth-sample/
 
 ## Project Setup
 
