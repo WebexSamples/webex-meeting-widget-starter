@@ -1,6 +1,6 @@
 {
-  "short_name": "Webex OAuth",
-  "name": "Webex Basic Oauth Sample",
+  "short_name": "Webex React OAuth",
+  "name": "Webex Basic React Oauth Sample",
   "icons": [
     {
       "src": "favicon.ico",
