@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function OAuthLink({clientID, loginText, redirectURI, webexAPIBaseURL}) {
   
   
@@ -11,5 +13,12 @@ function OAuthLink({clientID, loginText, redirectURI, webexAPIBaseURL}) {
     </>
   );
 }
+
+OAuthLink.propTypes = {
+  clientID: PropTypes.string.isRequired,
+  loginText: PropTypes.string.isRequired,
+  redirectURI: PropTypes.string.isRequired,
+  webexAPIBaseURL: PropTypes.string.isRequired
+};
 
 export default OAuthLink;
