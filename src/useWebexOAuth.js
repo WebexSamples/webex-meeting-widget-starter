@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-
-import { useQueryParam, StringParam } from 'use-query-params';
+import queryString from 'query-string';
 
 /**
  * This function captures the "code" querystring returned from an OAuth call
@@ -10,15 +9,26 @@ import { useQueryParam, StringParam } from 'use-query-params';
  */
 function useWebexOAuth() {
   const [webexToken, setWebexToken] = useState('');
-  const [accessCode, setAccessCode] = useQueryParam('code', StringParam);
+  const { hash } = window.location;
 
   
   useEffect(() => {
-    if (accessCode && !webexToken) {
-      setWebexToken(accessCode);
-      setAccessCode(undefined);
+    if (!webexToken && hash) {
+      const parsedHash = queryString.parse(hash);
+      // Our access token lives in the `access_token` variable in the hash
+      parsedHash['access_token'] && setWebexToken(parsedHash['access_token']);
+      
+      // Clear any items from the hash that were provided by implicit grant flow
+      [
+        'access_token',
+        'token_type',
+        'expires_in',
+        'refresh_token',
+        'refresh_token_expires_in'
+      ].forEach((key) => Reflect.deleteProperty(parsedHash, key));
+      window.location.hash = queryString.stringify(parsedHash);
     }
-  }, [accessCode, webexToken, setAccessCode]);
+  }, [webexToken, hash]);
 
   return webexToken;
 }
