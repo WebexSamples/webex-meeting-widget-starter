@@ -1,6 +1,6 @@
 {
-  "short_name": "Webex React OAuth",
-  "name": "Webex Basic React Oauth Sample",
+  "short_name": "Webex Meeting Widget Starter",
+  "name": "Webex Meeting Widget Starter",
   "icons": [
     {
       "src": "favicon.ico",

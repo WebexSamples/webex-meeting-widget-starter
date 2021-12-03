@@ -1,4 +1,5 @@
 import Auth from './OAuthLink';
+import WebexMeeting from './WebexMeeting';
 import useCurrentUri from './useCurrentUri';
 import useWebexOAuth from './useWebexOAuth';
 
@@ -14,9 +15,7 @@ function App() {
         { 
           webexToken ? 
           (
-            <div>
-              Congratulations, you are logged in to Webex. User's API token is available in the "webexToken" variable.
-            </div>
+            <WebexMeeting webexToken={webexToken} />
           ) : 
           (
             <Auth 
