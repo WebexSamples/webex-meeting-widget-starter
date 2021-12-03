@@ -1,13 +1,14 @@
-# Webex React OAuth Sample
+# Webex React Meeting Widget Starter
 
-The purpose of this project is to show how to authorize with Webex APIs within a React application.
+The purpose of this project is to build off of the [Webex React OAuth Sample App](https://github.com/WebexSamples/webex-react-oauth-sample) and integrate the [Webex Meetings Widget](https://github.com/webex/widgets/tree/master/src/widgets/WebexMeeting).
 The setup is a basic site that utilizes the implicit grant flow available for [Webex Integrations](https://developer.webex.com/docs/integrations).
+Then, after authorizing the application, a meeting destination is entered and the Meeting Widget opens to that destination.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Live Demo
 
-View the live demo here: https://webexsamples.github.io/webex-react-oauth-sample/
+View the live demo here: https://webexsamples.github.io/webex-meeting-widget-starter/
 
 ## Project Setup
 
