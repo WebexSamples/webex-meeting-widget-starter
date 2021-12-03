@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/webex-meeting-widget-starter/static/css/main.2beae0d3.chunk.css",
-    "main.js": "/webex-meeting-widget-starter/static/js/main.92693fd2.chunk.js",
-    "main.js.map": "/webex-meeting-widget-starter/static/js/main.92693fd2.chunk.js.map",
+    "main.css": "/webex-meeting-widget-starter/static/css/main.f826477d.chunk.css",
+    "main.js": "/webex-meeting-widget-starter/static/js/main.5d5310a0.chunk.js",
+    "main.js.map": "/webex-meeting-widget-starter/static/js/main.5d5310a0.chunk.js.map",
     "runtime-main.js": "/webex-meeting-widget-starter/static/js/runtime-main.b896bc05.js",
     "runtime-main.js.map": "/webex-meeting-widget-starter/static/js/runtime-main.b896bc05.js.map",
     "static/css/2.b4ffe64c.chunk.css": "/webex-meeting-widget-starter/static/css/2.b4ffe64c.chunk.css",
-    "static/js/2.72fe785e.chunk.js": "/webex-meeting-widget-starter/static/js/2.72fe785e.chunk.js",
-    "static/js/2.72fe785e.chunk.js.map": "/webex-meeting-widget-starter/static/js/2.72fe785e.chunk.js.map",
+    "static/js/2.e5275951.chunk.js": "/webex-meeting-widget-starter/static/js/2.e5275951.chunk.js",
+    "static/js/2.e5275951.chunk.js.map": "/webex-meeting-widget-starter/static/js/2.e5275951.chunk.js.map",
     "static/js/3.6fd15f2a.chunk.js": "/webex-meeting-widget-starter/static/js/3.6fd15f2a.chunk.js",
     "static/js/3.6fd15f2a.chunk.js.map": "/webex-meeting-widget-starter/static/js/3.6fd15f2a.chunk.js.map",
     "index.html": "/webex-meeting-widget-starter/index.html",
     "static/css/2.b4ffe64c.chunk.css.map": "/webex-meeting-widget-starter/static/css/2.b4ffe64c.chunk.css.map",
-    "static/css/main.2beae0d3.chunk.css.map": "/webex-meeting-widget-starter/static/css/main.2beae0d3.chunk.css.map",
-    "static/js/2.72fe785e.chunk.js.LICENSE.txt": "/webex-meeting-widget-starter/static/js/2.72fe785e.chunk.js.LICENSE.txt",
+    "static/css/main.f826477d.chunk.css.map": "/webex-meeting-widget-starter/static/css/main.f826477d.chunk.css.map",
+    "static/js/2.e5275951.chunk.js.LICENSE.txt": "/webex-meeting-widget-starter/static/js/2.e5275951.chunk.js.LICENSE.txt",
     "static/media/webexWidgets.css": "/webex-meeting-widget-starter/static/media/ff8c1c66.9a42f59d.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.b896bc05.js",
     "static/css/2.b4ffe64c.chunk.css",
-    "static/js/2.72fe785e.chunk.js",
-    "static/css/main.2beae0d3.chunk.css",
-    "static/js/main.92693fd2.chunk.js"
+    "static/js/2.e5275951.chunk.js",
+    "static/css/main.f826477d.chunk.css",
+    "static/js/main.5d5310a0.chunk.js"
   ]
 }
