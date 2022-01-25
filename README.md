@@ -1,6 +1,6 @@
 # Webex React Meeting Widget Starter
 
-The purpose of this project is to build off of the [Webex React OAuth Sample App](https://github.com/WebexSamples/webex-react-oauth-sample) and integrate the [Webex Meetings Widget](https://github.com/webex/widgets/tree/master/src/widgets/WebexMeeting).
+The purpose of this project is to build off of the [Webex React OAuth Sample App](https://github.com/WebexSamples/webex-react-oauth-sample) and integrate the [Webex Meetings Widget](https://github.com/webex/widgets/tree/master/src/widgets/WebexMeetings).
 The setup is a basic site that utilizes the implicit grant flow available for [Webex Integrations](https://developer.webex.com/docs/integrations).
 Then, after authorizing the application, a meeting destination is entered and the Meeting Widget opens to that destination. Webex meeting destinations can be an email address, user ID, room ID or SIP address.
 
