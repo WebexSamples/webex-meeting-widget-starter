@@ -9,6 +9,7 @@ function App() {
   const webexToken = useWebexOAuth();  
   const redirectURI = useCurrentUri();
 
+  // This returns a component that will either display our OAuth login link or our main app if we have a token.
   return (
     <div className="App">
       <header className="App-header">

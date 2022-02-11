@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 import './WebexMeetingDestination.css';
 
+// This is a basic React form component which sends the entered value to the parent component when saved.
 function WebexMeetingDestination({onSetDestination}) {
   const [destination, setDestination] = useState('');
 
